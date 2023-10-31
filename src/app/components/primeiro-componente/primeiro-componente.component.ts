@@ -10,6 +10,13 @@ name:string='Pedro';
 age: any= '30';
 adress: any= "Rua Dona Laura";
 profissao: any= "Programador";
-hobbie: any='estudar';
+hobbie: any= ['correr','estudar', 'Jogar'];
+carro: any= 'Uno';
+carroAno: any='2015';
+
+constructor(){}
+ngOnInit(): void{
+
+}
 
 }
